@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { EpdfComponent } from './epdf/epdf.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EpdfComponent
   ],
   imports: [
     BrowserModule
